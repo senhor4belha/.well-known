@@ -1,40 +1,28 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: sans-serif;
-  background-color: #0a2e17; /* Verde escuro opaco */
-  color: #e0e0e0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   max-width: 600px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.05); /* Fundo levemente branco translúcido */
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px); /* Efeito glassmorphism opcional */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #c1f0c1;
 }
 
-p {
-  margin-bottom: 20px;
-  line-height: 1.6;
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 ul {
@@ -48,17 +36,16 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #a8d8b9;
+  color: #0077cc;
 }
 
 ul li a:hover {
   text-decoration: underline;
-  color: #d4f4dd;
 }
 
 footer {
   margin-top: 40px;
   font-size: 12px;
-  color: #aaa;
+  color: #888;
   text-align: center;
 }
