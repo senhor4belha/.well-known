@@ -12,4 +12,3 @@ Fique à vontade!
 ---
 
 feito com bastante tédio no GitHub Pages
-# .well-known
